@@ -1,5 +1,11 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: pink;
+  display:flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-bottom: 20%;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 /* Uncomment below if images are way too big.
@@ -9,6 +15,31 @@ Selects all image tags and makes them 500px;
 /*  width: 500px;*/
 /*}*/
 
+.heading{
+  align-items: center;
+}
+
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display:flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
 }
+
+.gallery-item:hover{
+  border: 10px red;
+}
+
+.gallery-item{
+  width: 6rem;
+  height: 6rem;
+  padding: 10px;
+}
+
+
+
+img{
+  width: 100px;
+  height: 100px;
+}
+

@@ -9,18 +9,28 @@
   </head>
 
   <!-- page content goes into <body> -->
-  <body>
+  <body background-color="lightblue">
     <div id="cs1300-gallery">
-      <h1>Welcome to my bakery</h1>
-      <p>Add your own images and styles!</p>
+      <h1 class="heading">Welcome to my bakery</h1>
+      <p>We love french desserts :)!</p>
 
       <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
       <div class="gallery-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
+        <!-- <div class = "row"> -->
+          <img class="gallery-item" src="./assets/eggtart.jpg" alt="Egg tart">
+          <img class="gallery-item" src = "./assets/croissant.JPG" alt="Croissant">
+          <img class="gallery-item" src = "./assets/macaron.JPG" alt="Macaron">
+        <!-- <div>  
+        <div class = "row"> -->
+          <img class="gallery-item" src = "./assets/key_lime_pie.JPG" alt="Key lime pie">
+          <img class="gallery-item" src = "./assets/cookies.JPG" alt="Cookies">
+          <img class="gallery-item" src = "./assets/madeleine.jpg" alt="madeleine">
+        <!-- </div> -->
+       
       </div>
 
       <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="updatePage()">Press this button to display some fruit data</button> -->
+      <button onclick="updatePage()">Press this button to display some fruit data</button>
     </div>
   </body>
 
